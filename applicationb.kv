@@ -1,0 +1,18 @@
+<Mouna>:
+    FloatLayout:
+        Label:
+            text: root.vd
+            font_name: "arial"
+            font_size: 40
+            size_hint: 1, 0.15
+            pos_hint: {"x":0, "y":0.85}
+        Image:
+            source: root.vc
+            size_hint: 1, 0.6
+            pos_hint: {"x":0, "y":0.2}
+        Button:
+            text: "Plat du jour"
+            font_size: 40
+            size_hint: 1, 0.2
+            color: 255, 235, 138, 1
+            on_press: root.afficheur()
